@@ -1,38 +1,83 @@
 @import url('http://fonts.cdnfonts.com/css/nexa-bold');
 
 * {
-	box-sizing: border-box;
-    background-color: #FCFCFC;
+    box-sizing: border-box;
     color: #4b4b4b;
-}
-
-header{
-    text-align: center;
     font-family: 'Nexa', sans-serif;
 }
 
-main{
+body {
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 15px;
+}
+
+main {
     margin-left: 15%;
     margin-right: 15%;
     justify-content: start;
-    font-family: 'Nexa', sans-serif;
 }
 
-footer{
+footer {
     text-align: center;
-    font-family: 'Nexa', sans-serif;
+    background-color: #011f5a;
+    padding: 15px;
 }
 
-nav{
-    align-items: stretch;
-}
 
-span{
+span {
     font-style: oblique;
     font-weight: bold;
+    color: #0842b8;
 }
 
-a{
-    color: rgba(7, 7, 219, 0.849);
+footer span {
+    color: #e0e0e0;
+}
+
+a {
+    color: #0e36a7;
+}
+
+footer a {
+    color: rgb(245, 245, 245);
+}
+
+footer p {
+    color: rgb(245, 245, 245);
+}
+
+h2 {
+    font-weight: bold;
+    color: #042463;
+}
+
+.contenido {
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 900px;
     text-decoration: none;
+}
+
+.contenido:hover {
+    color: #0066ff;
+    text-decoration: underline;
+}
+
+section {
+    margin: 5%;
+}
+
+img {
+    padding: 5px;
+    height: 150px;
+}
+
+.container {
+    flex-direction: row;
 }
