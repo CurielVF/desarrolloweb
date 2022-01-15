@@ -20,6 +20,12 @@ body {
     justify-content: space-evenly;
   }
 
+  main {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+
   nav {
     background-color: gray;
     margin-left: 10px
@@ -97,6 +103,13 @@ body {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+  }
+
+  footer {
+    border-top: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-top: 10px;
   }
 }
 
